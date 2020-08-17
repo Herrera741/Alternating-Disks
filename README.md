@@ -148,5 +148,3 @@ You are provided with the following files.
 2. Analyze your pseudocode for the algorithm mathematically and prove its efficiency class.
 3. Implement all the skeleton functions in ​disks.hpp​. Use the ​disks_test.cpp​ program to
     test whether your code works.
-
-
