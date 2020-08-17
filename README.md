@@ -58,7 +58,7 @@ solving this puzzle and determine the number of moves it takes.
 **Output:** ​ a list of 2​n​ disks, the first ​n​ disks are light, the next ​n​ disks are dark, and an integer ​m​ representing
 the number of swaps to move the dark ones after the light ones.
 
-There are two algorithms, presented below, that solve this problem in O(​n​^2 ​) time. Some improvement can be
+There are two algorithms, presented below, that solve this problem in O(​n​<sup>2</sup> ​) time. Some improvement can be
 obtained by not going all the way to the left or to the right, since some disks at the ends are already in the
 correct position. ​You need to translate the descriptions of the two algorithms into clear pseudocode. ​You are
 allowed to do the improvements as long as it does not change the description of the algorithm.
@@ -107,7 +107,7 @@ timings correspond to big-O trends, not to design impressive algorithms.
 
 Your next task is to analyze each of your two algorithms mathematically. You should prove a specific big-O
 efficiency class for each algorithm. These analyses should be routine, similar to the ones we have done in class
-and in the textbook. I expect each algorithm’s efficiency class will be one of _O_ ( _n_ ), _O_ ( _n_^2 ), _O_ ( _n_^3 ), or _O_ ( _n_^4 ).
+and in the textbook. I expect each algorithm’s efficiency class will be one of O(n), O(n<sup>2</sup>), O(n<sup>3</sup>), or O(n<sup>4</sup>).
 
 
 ### Obtaining and Submitting Code
